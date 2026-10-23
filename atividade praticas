@@ -1,0 +1,11 @@
+AT 1 
+const nome = "dada";
+let idade = prompt("digite sua idade");
+let curso = prompt("digite seu curso");
+let semestre = prompt ("digite seu semestre");
+
+console.log("Idade " + idade);
+console.log("Curso " + curso);
+console.log("Semestre " + semestre);
+
+AT 2
