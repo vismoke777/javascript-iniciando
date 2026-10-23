@@ -1,0 +1,81 @@
+ex - 1
+console.log("helllo word");
+VM351:1 helllo word
+undefined
+alert("cuidado mano");
+
+ex - 2
+const nome = "dada";
+let idade = 20;
+let altura = 1.80;
+let aprovada = true;
+let matriculada = null;
+//interpolação
+console.log('Nome: ${nome}, Idade: ${idade}, Altura: ${altura}');
+
+//concatenção 
+console.log("Nome: " + nome + " , Idade: " + idade + " , Altura " + altura);
+
+ex - 3
+console.log(10+5);
+console.log("10 + 5");
+console.log("10" + "5");
+
+
+ex - 4
+console.log(3 + 3);
+console.log(2 - 3);
+console.log(6 * 4);
+console.log(3 / 3);
+console.log(3 % 4);
+console.log(6 ** 5);
+
+
+ex - 5 
+let nota1 = 8;
+let nota2 = 6;
+
+let media = (nota1 + nota2) / 2;
+
+console.log("A média é: " + media);
+
+ex - 6
+let Nome = prompt("Qual é o seu nome");
+alert =("olá, " + Nome + "!");
+
+ex - 7
+  let nota1 = Number(prompt("Digite a primeira nota:"));
+let nota2 = Number(prompt("Digite a segunda nota:"));
+let nota3 = Number(prompt("Digite a terceira nota:"));
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+alert = ("sua média é: " + media);
+
+console.log("Sua média é: " + media);
+
+
+
+EXEMPLO
+> maior 
+< menor 
+>= maior igual
+<+ menor igual
+===igualdade estrita: valor e tipo
+!== diferenca estrita: valor e tipo
+
+and &&
+or ||
+not !
+
+
+
+  ex - 8
+  let idade = Number(prompt("Digite sua idade:"));
+
+if(idade >= 18){
+    console.log("Sua idade é " + idade + " anos. Voce e maior de idade");
+}else{
+    console.log("Sua idade é " + idade + " anos. Você e menor de idade");
+}
+    
