@@ -1,0 +1,62 @@
+1ª parte
+let idade = Number(prompt("Qual é a sua idade?"));
+
+if(idade >= 18){
+    console.log("você tem " + idade + " anos. Você e maior de idade. não vai fazer besteira");
+}else{
+    console.log("você tem " + idade + " anos. Você e menor de idade. Cuidado");
+}*/
+
+2ªparte
+let nota1 = Number(prompt("fala tua nota pcr"));
+let nota2 = Number(prompt("fala tua nota pcr"));
+let nota3 = Number(prompt("fala tua nota pcr"));
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+if(media >= 9){
+    console.log("excelente! você foi aprovado, sua média é " + media);
+}else if(media >= 6){
+    console.log("parabéns! voce passou mano, toma tua média " + media);
+}else{
+    console.log("voce não fez o minimo, por isso reprovou, toma essa bosta de media ae " + media);
+}
+
+3ªparte
+/*let usuario = prompt("digite seu nome de login");
+let senha = Number (prompt("digite sua senha"));
+
+if(usuario === "admin" && senha === 123){
+    console.log("acesso feito");
+}else{
+    console.log("algo esta errado");
+}*/
+
+4ªparte
+
+let dia = Number(prompt("digite de 1 a 7"));
+switch(dia){
+    case 1:
+        console.log("Domingo");
+        break;
+    case 2:
+        console.log("Segunda");
+        break;
+    case 3:
+        console.log("Terça");
+        break;
+    case 4:
+        console.log("Quarta");
+        break;
+    case 5:
+        console.log("Quinta");
+        break;
+    case 6:
+        console.log("Sexta");
+        break;
+    case 7:
+        console.log("Sabádo");
+        break;
+        default:
+            console.log("digite um numero de 1 a 7");
+}
