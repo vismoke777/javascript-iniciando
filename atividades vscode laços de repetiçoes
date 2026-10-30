@@ -1,0 +1,17 @@
+parte 1
+let numero = Number (prompt("digite um numero"));
+    for(let i = 1;i <= 10; i++){
+        console.log(numero + " x " + i + " = " + (numero * i ));
+    }
+parte 2
+let contador = 1;
+while(contador <= 5){
+    console.log(contador);
+    cotador++;
+}
+let numero = 10;
+
+do{
+    console.log(numero);
+    numero++;
+}while(numero <= 5);
