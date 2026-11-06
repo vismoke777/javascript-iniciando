@@ -1,1 +1,88 @@
+function saudacao() {
+    console.log("Bem-vindo ao sistema")
+}
 
+saudacao();
+saudacao();
+saudacao();
+saudacao();
+saudacao();
+
+
+function apresentar(nome){
+    console.log("olá, "+ nome +"!");
+}
+
+apresentar("matias");
+apresentar("Carolina");
+apresentar("Carolina");
+apresentar("Carolina");
+
+
+function soma(numero1, numero2) {
+    let resultado = numero1 + numero2;
+console.log(resultado);
+}
+
+soma(5,10);
+soma(3,30);
+
+let resultado = somar (15,25);
+console.log ("O resultado da soma é:" + resultado);
+
+
+function verificarIdade(idade{
+    if(idade >= 18){
+        return "voce tem" + idade + "anos. voce é o maior de idade";
+    }else{
+        return " voce tem" + idade + " anos, voce e menor de idade";
+    }
+ }
+
+ let idade = number(prompt("digite sua idade"));
+ console.log(verificaIdade(idade));
+
+
+let alunos = ["matias", "Alvani", "Daniel1", "Luana", "Maurício)"];
+console.log(alunos); //trazer  todos
+console.log(alunos[4]);// trazer especifico
+alunos.push("Gabriel");// acrescenta mais um no final
+console.log(alunos);
+alunos.pop();//retira ultimo
+console.log(alunos);
+alunos.unshift("Carlão");// adiciona mais um no inicio
+console.log(alunos);
+alunos.splice(1,2);//remove de acordo com a posição e quantidades
+console.log(alunos);
+let posição = alunos.indexOf("Daniel");//encontra posição
+console.log(alunos)
+
+
+for(let i = 0; i < alunos.length; i++){
+    console.log(alunos);
+}
+
+for(let aluno of alunos){
+    console.log(aluno);
+}
+
+let aluno = {
+    nome: "mauricio",
+    idade: 24,
+    curso: "ADS"
+};
+
+console.log(aluno.nome);
+console.log(aluno.idade);
+console.log(aluno.curso);
+
+
+let alunos = [
+    {nome: "Gabriel", nota: 8},
+    {nome: "Daniel", nota: 7},
+  {nome: "Gabriel", nota: 1.3},
+];
+for(let aluno of alunos){
+    console.log(aluno.nome + ":" + aluno.nota);
+}
+*/
